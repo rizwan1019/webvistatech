@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebVista Tech</title>
+    <link rel="shortcut icon" href="asset/lg.png" type="image/x-icon";>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo-container">
+        <a href="index.html" class="logo"><img src="./asset/logo2.png" alt="" height="70px" width= "200px"></a>
+    </div>
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="#">Digital Marketing ▾</a>
+            <div class="dropdown-content">
+                <a href="seo.html">SEO</a>
+                <a href="socialmedia.html">Social Media</a>
+                <a href="influencermarketting.html">Influencer Marketing</a>
+                <a href="ppc.html">PPC Advertising</a>
+                <a href="leadgeneration.html">Lead Generation</a>
+            </div>
+        </div>
+        <a href="#Web Development">Web Development</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="mobile-menu-button">
+        <button class="hamburger-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Dropdown -->
+    <div class="mobile-dropdown hidden">
+        <a href="index.html">Home</a>
+        <details>
+            <summary>Digital Marketing</summary>
+            <div class="mobile-submenu">
+                <a href="seo.html">SEO</a>
+                <a href="socialmedia.html">Social Media</a>
+                <a href="influencermarketting.html">Influencer Marketing</a>
+                <a href="ppc.html">PPC Advertising</a>
+                <a href="leadgeneration.html">Lead Generation</a>
+            </div>
+        </details>
+        <a href="#Web Development">Web Development</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</header>
+
+
+
+    <section id="home" class="hero-section">
+        <div class="flex-in">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in-up">Target. Trigger. Thrive.</h1>
+                <p class="hero-subtitle animate-fade-in-up delay-200">
+                    We help businesses thrive in the digital age with cutting-edge solutions and strategic insights.
+                </p>
+                <a href="#contact" class="hero-button animate-fade-in-up delay-400">
+                    Get Started Today
+                </a>
+            </div>
+        </div>
+
+        <div class="flex-in">
+            <img class="img-flex" src="./asset/OFFIC.png" alt="">
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Our Core Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon blue">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.75 17L9 20l-1 1h4l2-2m0-6V9m-6 6h6m6-6a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Web Development</h3>
+                    <p class="feature-description">Building responsive, high-performance websites tailored to your
+                        needs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon green">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Digital Marketing</h3>
+                    <p class="feature-description">Driving targeted traffic and boosting your online presence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon purple">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">UI/UX Design</h3>
+                    <p class="feature-description">Crafting intuitive and engaging user experiences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon red">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Lead Generation</h3>
+                    <p class="feature-description">From interest to action, We make it happen.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon yellow">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Content Creation</h3>
+                    <p class="feature-description">Engaging content that resonates with your target audience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon indigo">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2-1.343-2-3-2z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 18c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2-1.343-2-3-2zM12 2a9 9 0 00-9 9c0 2.21 1.5 4.81 3.5 6.5L12 22l5.5-3.5C19.5 15.81 21 13.21 21 11a9 9 0 00-9-9z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">SEO Optimization</h3>
+                    <p class="feature-description">Improving your search engine rankings for maximum visibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <div class="about-image-container">
+                <img src="./asset/digi-1.webp" alt="About Us" class="about-image">
+            </div>
+            <div class="about-text-content">
+                <h2 class="section-title">We Are a Professional Digital Marketing Agency</h2>
+                <p class="about-description">
+                    We are a passionate team dedicated to delivering exceptional digital solutions. With years of
+                    experience and a client-centric approach, we strive to empower businesses of all sizes to achieve
+                    their online goals.
+                </p>
+                <p class="about-description">
+                    Our mission is to combine creativity with technology to build impactful digital experiences that
+                    drive growth and foster lasting connections.
+                </p>
+                <a href="leadgeneration.html" class="about-button">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="why-section">
+        <div class="why-web-section">
+            <h1>Why WebVistaTech Marketing Agency for Success Journey?</h1>
+            <p>Your Success Partner in Noida: Stationed in Noida (Delhi NCR), India, we stand as the leading digital
+                marketing agency ready to boost your business in India as well as worldwide. With over 13 years of
+                experience in the same industry, we built 50+ brands from Zero. Lots of other businesses are still in
+                the process of achieving a milestone. We understand your goals and work transparently to achieve them.
+                Our mission as a digital marketing agency is simple: to add unmatched value to your brand, and design
+                stories that resonate. Through our top-notch digital marketing services, our professional team creates
+                impactful results not just in Noida, but globally. After generating over $76076763 in client revenue, we
+                can confidently say, we are ready to be your success partner and let's grow together.</p>
+
+            <div class="skill-bar">
+                <div class="skill-label">Website Analysis</div>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 97%;"></div>
+                    <span class="progress-percentage">97%</span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-label">Marketing Management</div>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 93%;"></div>
+                    <span class="progress-percentage">93%</span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-label">Digital Marketing</div>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 98%;"></div>
+                    <span class="progress-percentage">98%</span>
+                </div>
+            </div>
+            <a href="#contact" class="about-button">
+                    Book Free Consultation
+            </a>
+        </div>
+
+        <div>
+            <div class="right-side-features">
+                <div class="feature-block">
+                    <div class="feature-icon transparency-icon">
+                        <img src="./asset/Transperacy.png" alt="Transparency Icon">
+                    </div>
+                    <h2>Transparency</h2>
+                    <p>We uphold a transparent approach with our clients. Every step of our digital marketing process is
+                        shared, ensuring you're informed and involved throughout our collaborative endeavors.</p>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature-icon account-manager-icon">
+                        <img src="./asset/dedicated.png" alt="Account Manager Icon">
+                    </div>
+                    <h2>Dedicated Account Manager</h2>
+                    <p>Understand your priorities and requirements. That's why we assign a dedicated account manager to
+                        be your singular POC, addressing all your inquiries and consistently keeping you in the loop
+                        with the most recent marketing updates.</p>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature-icon marketing-plan-icon">
+                        <img src="./asset/marketting.png" alt="Marketing Plan Icon">
+                    </div>
+                    <h2>Unique & Customized Marketing Plan</h2>
+                    <p>Our digital marketing strategies are tailor-made, designed around the nuances of your business
+                        and its offerings. By truly collecting your needs, understanding the competition, potential
+                        market size, budget and the essence of your product or service, we shape a bespoke digital
+                        marketing roadmap just for you.</p>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature-icon technology-icon">
+                        <img src="./asset/latest technology.png" alt="Technology Icon">
+                    </div>
+                    <h2>Latest Technology</h2>
+                    <p>Our experienced & passionate team stays at the forefront of emerging technologies and
+                        cutting-edge digital marketing trends, ensuring we deliver standout, performance-driven
+                        outcomes. As a leading digital marketing agency in India, we also venture into experimenting
+                        with the freshest features on the digital horizon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero-section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Transform Your Business?</h2>
+            <p class="cta-subtitle">Let's work together to create something amazing.</p>
+            <a href="#contact" class="about-button">
+                Contact Us Now
+            </a>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Your message..."
+                            required></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit" class="submit-button">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <a href="index.html" class="logo"><h1>WebVista Tech</h1></a>
+                <p>
+                    We are a passionate team dedicated to delivering exceptional digital solutions. With years of
+                    experience and a client-centric approach, we strive to empower businesses of all sizes to achieve
+                    their online goals.
+                </p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="seo.html">SEO</a>
+                <a href="socialmedia.html">Social Media</a>
+                <a href="leadgeneration.html">Lead Generation</a>
+                <a href="influencermarketting.html">influencer Marketting</a>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Company</h3>
+                <a href="about.html">About Us</a>
+                <a href="#">Policy</a>
+                <a href="#">Term & Conditions</a>
+                <a href="#">Legal</a>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Contact Us</h3>
+                <a href="#">Suite No-104, H-160, Sector-63, Noida, Dist. Gautam Buddha Nagar, Uttar Pradesh 201301</a>
+                <a href="#">Phone: +91 99712 25209</a>
+                <a href="#">Email: info@webvistatech.com</a>
+                <a href="#">For Business: business@webvistatech.com</a>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        intent="WELCOME"
+        chat-title="WebvistaBot"
+        agent-id="5e682bd6-6dee-44de-a070-aa155581e5cc"
+        language-code="en"
+        ></df-messenger>
+
+</body>
+
+</html>
